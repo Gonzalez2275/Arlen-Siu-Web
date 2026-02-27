@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -89,74 +88,3 @@
     </div>
 </body>
 </html>
-
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-color: rgba(245, 255, 102, 0.486);
-}
-#conteitemscarrusel{
-    height: 600px;
-    overflow: hidden;
-}
-
-.itemCarrusel{
-    height: 100%;
-    position: relative;
-}
-
-.tarjetaCarrusel{
-    height: 100%;
-}
-
-.flechasCarrusel{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px;
-}
-
-#carrusel1{
-    background-color: rgb(160, 75, 75);
-}
-
-#carrusel2{
-    background-color: rgb(99, 99, 190);
-}
-
-#carrusel3{
-    background-color: rgb(85, 182, 85);
-}
-
-#carrusel4{
-    background-color: rgb(168, 168, 79);
-}
-
-#carrusel5{
-    background-color: rgb(146, 112, 49);
-}
-
-#carrusel6{
-    background-color: rgb(163, 72, 163);
-}
-
-a{
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
-    font-style: arial;
-    font-weight: bold;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-}
